@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Roulette Run Around</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+
+<body>
+<h1 class="center">Russian Roulette</h1>
+<p></p>
+<img class = "devil" src="http://s24.postimg.org/vqmlro9dh/black_devil.png">
+<img class = "angel" src="http://www.clker.com/cliparts/7/v/v/4/V/M/angel-wings-ana-hi.png">
+<div class="container">
+<h1 id="bulletCount">0</h1>
+<h1 id="fireAt">Fire!</h1>
+<p></p>
+<h1 id="fireAwayCount">2</h1>
+<p></p>
+<button class="button" id="btnSpin">Spin</button>
+<button class="button" id="btnFire">Fire</button>
+<button class="button" id="btnFireAway">Fire Away</button>
+<button class="button" id="btnReset">Reset</button>
+<p></p>
+<h1>Won: <span id="won">0</span></h1>
+<h1>Lost: <span id="lost">0</span></h1>
+
+<audio id ="gClick" src="Gun Click.mp3" preload="auto"></audio>
+<audio id="gBang" src="Gunshot.mp3" preload="auto"></audio>
+
+</div>
+</body>
+<script src="Roulette.js"></script>
+</html>
